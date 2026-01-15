@@ -44,7 +44,7 @@ tool_payload = {
     }
 }
 
-print("🛠️ Creating Vapi Tool...")
+print(" Creating Vapi Tool...")
 
 res = requests.post(
     f"{VAPI_BASE_URL}/tool",
@@ -58,7 +58,7 @@ print("Response:", res.text)
 res.raise_for_status()
 
 tool = res.json()
-print("✅ Tool created successfully")
+print(" Tool created successfully")
 print("Tool ID:", tool["id"])
 print("Tool Name:", tool["function"]["name"])
 print("Tool Description:", tool["function"]["description"])
