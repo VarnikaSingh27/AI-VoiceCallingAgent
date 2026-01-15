@@ -21,13 +21,9 @@
 <hr />
 <!-- Social Links -->
 <!-- Social Links -->
-<h3>🚀 Project Links</h3>
+<h3>🚀 Project Link</h3>
 <p align="center">
-  <a href="https://youtu.be/OB-zzxz6e8Y?si=DVnbjeScFWHRnNTQ"><b>Video Demo</b></a> • 
-  <a href="https://youtube.com/playlist?list=PLsLuXr7FW3LwKIL9K6SJDIRh2qISQKnsq&si=p_Dra1UWf91P_iyu"><b>Extra Features Playlist</b></a> • 
-  <a href="https://drive.google.com/file/d/1ZVUwnB5UE8Nv0b406zvQyzalklAOD9Y8/view?usp=drivesdk"><b>Documentation</b></a> • 
-  <a href="https://modest-reflection-production-893c.up.railway.app/"><b>Live Website</b></a> •
-  <a href="https://drive.google.com/file/d/1oTjmFBBuKeb98eHA6RqLybZRMYRj4Cie/view?usp=sharing"><b>Installation Guide</b></a>
+  <a href="https://drive.google.com/file/d/1p1e8wE5K_0f87GBkcxSIs4wnenTVK6Zf/view?usp=sharing"><b>Video Demo</b></a> • 
 </p>
 
 <!-- Animated Divider -->
@@ -290,11 +286,6 @@ LokMitra-AI/
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
