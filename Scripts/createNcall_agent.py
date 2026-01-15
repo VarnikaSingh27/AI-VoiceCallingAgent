@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-print("🔥 Fully Dynamic Gemini VAPI Agent Started")
+print(" Fully Dynamic Gemini VAPI Agent Started")
 
 # =========================
 # CONFIG
@@ -75,8 +75,7 @@ def create_assistant():
         "model": {
             "provider": "google",
             "model": "gemini-1.5-flash",
-
-            # ⚠️ THIS IS THE KEY PART
+            
             # We do NOT instruct Gemini what to say.
             # We only provide structured context.
             "messages": [
@@ -127,7 +126,7 @@ assistant_id = get_existing_assistant_id(ASSISTANT_NAME)
 if not assistant_id:
     assistant_id = create_assistant()
 
-print("🤖 Assistant ID:", assistant_id)
+print("Assistant ID:", assistant_id)
 
 # =========================
 # START CALL
@@ -147,5 +146,5 @@ call_res = requests.post(
 call_res.raise_for_status()
 
 call = call_res.json()
-print("📞 Call started:", call["id"])
+print("Call started:", call["id"])
 print("Status:", call["status"])
