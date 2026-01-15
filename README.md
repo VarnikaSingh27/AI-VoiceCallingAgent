@@ -291,21 +291,6 @@ LokMitra-AI/
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-## 📈 Project Stats
-
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub stars](https://img.shields.io/github/stars/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub forks](https://img.shields.io/github/forks/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub issues](https://img.shields.io/github/issues/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub contributors](https://img.shields.io/github/contributors/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-![GitHub license](https://img.shields.io/github/license/Kartavya728/LokMitra-AI?style=for-the-badge&logo=github)
-
-</div>
-
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
