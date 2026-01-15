@@ -21,20 +21,21 @@
 <hr />
 <!-- Social Links -->
 <!-- Social Links -->
-<h3>🚀 Project Link</h3>
+<h3> Link to the Demo Video</h3>
 <p align="center">
-  <a href="https://drive.google.com/file/d/1p1e8wE5K_0f87GBkcxSIs4wnenTVK6Zf/view?usp=sharing"><b>Video Demo</b></a> • 
+  <a href="https://drive.google.com/file/d/1p1e8wE5K_0f87GBkcxSIs4wnenTVK6Zf/view?usp=sharing"><b>Video Demo</b></a> 
 </p>
 
 <!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
-## 🌟 Overview
+## Brief Overview
 
-**LokMitra AI** is a revolutionary AI-powered voice assistant platform designed to bridge the gap between citizens and government services.  
-It enables seamless voice interactions, providing instant access to government schemes, databases, and human experts through natural language conversations.
+**LokMitra AI** is an AI-powered conversational voice agent that autonomously handles real-time inbound and outbound calls for government and public-service organizations. The system uses agentic AI to listen, reason, take actions and follow up—without continuous human involvement.
+
+**Why This Problem Matters**
+Voice calls are the most accessible communication method, especially for elderly, rural and non-technical users. Poor call handling causes long wait times, delayed services and user frustration reducing trust in public services.
 
 <div align="center">
 
@@ -44,16 +45,13 @@ It enables seamless voice interactions, providing instant access to government s
 </div>
 
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
 
-## 🎯 Features
+## Features
 
-### 🚀 Core Capabilities
+### Core Capabilities
 
 <details open>
-<summary><b>🎤 Voice Interaction</b></summary>
+<summary><b> Voice Interaction</b></summary>
 
 - Multilingual voice conversations in Indian languages  
 - Real-time transcription with context awareness  
@@ -62,7 +60,7 @@ It enables seamless voice interactions, providing instant access to government s
 </details>
 
 <details open>
-<summary><b>🧠 AI Agent Intelligence</b></summary>
+<summary><b> AI Agent Intelligence</b></summary>
 
 - Configurable AI agents with custom roles and behavior  
 - RAG-based knowledge retrieval from documents  
@@ -71,7 +69,7 @@ It enables seamless voice interactions, providing instant access to government s
 </details>
 
 <details open>
-<summary><b>📊 Data & Knowledge Access</b></summary>
+<summary><b>Data & Knowledge Access</b></summary>
 
 - Connect CSV, Excel, Google Sheets, and databases  
 - Fuzzy search for citizen records and queries  
@@ -80,7 +78,7 @@ It enables seamless voice interactions, providing instant access to government s
 </details>
 
 <details open>
-<summary><b>📞 Call Handling</b></summary>
+<summary><b>Call Handling</b></summary>
 
 - Automated inbound and outbound calling  
 - Call history, transcripts, and session tracking  
@@ -89,7 +87,7 @@ It enables seamless voice interactions, providing instant access to government s
 </details>
 
 <details open>
-<summary><b>👨‍💼 Human Escalation</b></summary>
+<summary><b>Human Escalation</b></summary>
 
 - Seamless transfer to human experts  
 - Smart escalation based on query complexity  
@@ -98,7 +96,7 @@ It enables seamless voice interactions, providing instant access to government s
 </details>
 
 <details open>
-<summary><b>🎨 Admin Dashboard</b></summary>
+<summary><b>Admin Dashboard</b></summary>
 
 - Fast, modern Next.js dashboard  
 - Real-time monitoring and controls  
@@ -106,12 +104,8 @@ It enables seamless voice interactions, providing instant access to government s
 
 </details>
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
 
-
-## 🏗️ Architecture
+## Architecture
 <div align="center">
 
 <img src="Architecture.png" alt="LokMitra AI Architecture" width="90%"/>
@@ -119,7 +113,7 @@ It enables seamless voice interactions, providing instant access to government s
 </div>
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: Next.js 16.1.1 (React 18.3.1)
@@ -159,11 +153,8 @@ It enables seamless voice interactions, providing instant access to government s
 - **Version Control**: Git
 - **Package Management**: npm (frontend), pip (backend)
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 LokMitra-AI/
@@ -225,13 +216,10 @@ LokMitra-AI/
 └── 📄 .env                       # Root Environment Variables
 ```
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
 
-## 🔌 API Endpoints
+## API Endpoints
 
-### 📞 Call Management
+### Call Management
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -241,7 +229,7 @@ LokMitra-AI/
 | `GET` | `/api/get-session-status/` | Get current session status |
 | `POST` | `/api/vapi-webhook/` | VAPI webhook handler |
 
-### 📚 Knowledge Base
+### Knowledge Base
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -249,7 +237,7 @@ LokMitra-AI/
 | `GET` | `/api/get-documents/` | List all documents |
 | `DELETE` | `/api/delete-document/<file_id>/` | Delete document |
 
-### 🗄️ Database Management
+### Database Management
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -260,7 +248,7 @@ LokMitra-AI/
 | `DELETE` | `/api/delete-database/` | Delete database |
 | `POST` | `/api/execute-db-query/` | Execute database query |
 
-### 👥 Human Experts
+### Human Experts
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -268,7 +256,7 @@ LokMitra-AI/
 | `GET` | `/api/get-human-experts/` | List all experts |
 | `DELETE` | `/api/remove-human-expert/<id>/` | Remove expert |
 
-### ⚙️ Agent Configuration
+### Agent Configuration
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -276,16 +264,12 @@ LokMitra-AI/
 | `POST` | `/api/update-agent-config/` | Update agent settings |
 | `POST` | `/api/update-tool-settings/` | Update tool enablement |
 
-### 📊 Call History
+### Call History
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/get-call-history/` | Retrieve call history |
 | `GET` | `/api/call-history/` | List call records (DRF) |
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
